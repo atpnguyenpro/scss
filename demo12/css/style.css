@@ -1,0 +1,15 @@
+#menu ul {
+  background-color: pink; }
+  #menu ul li {
+    color: red; }
+    #menu ul li a {
+      color: gold; }
+
+div {
+  color: red; }
+  div p {
+    background-color: green; }
+    div p a {
+      color: gold; }
+
+/*# sourceMappingURL=style.css.map */
