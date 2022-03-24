@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+$colordefault: red ;
+$textgreen: green;
+$textsecond: #cdcdccdc;
+.container {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.clearfix ::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+a :link, a {
+    text-decoration: none;
+}
+@mixin menuactive {
+    background-color: $colordefault;
+    a { color: $textgreen;}
+}

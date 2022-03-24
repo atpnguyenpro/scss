@@ -1,0 +1,63 @@
+@import 'reset';
+@import 'config';
+#header_page {
+    .header_page_top {
+        background-color: $colordefault;
+        .col-left , .col-right {
+            flex: 5;
+        }
+           li {
+             float : left;
+               a {
+                    color: $textsecond;
+                    display: block;
+                    padding: 5px 10px ;
+                }
+            }
+         
+        .left_info {
+         
+        }
+    }
+    .header_page_content {
+        .col-logo {
+            flex: 2;
+            #logo {
+                img {
+                    width: 100%;
+                    padding: 25px 0px;
+                    display: block;
+                }
+            }
+        }
+        .col-menu {
+            flex: 7;
+            .menu_page {
+                li {
+                    float:left
+                    a {
+                        display: block;
+                        padding: 40px 10px;
+                        color: black;
+                        font-weight: bold;
+                    }
+                    &.active {
+                        background-color:$colordefault ;
+                        a {
+                            color: $textgreen;
+                        }
+                   }
+                   & :hover {
+                       background-color: $colordefault;
+                       a { color: $textgreen;}
+                   }
+                }
+            }
+
+
+        }
+        .col-search {
+            flex: 1;
+        }
+    }
+}
